@@ -1,5 +1,5 @@
 # java-tools
-Materialien zum Maven-Seminar
+Materialien zum Java Tools und Ökosystem
 
 ## Inhalte
 - agenden ------ Diverse Agenden
