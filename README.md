@@ -5,4 +5,4 @@ Materialien zum Java Tools und Ökosystem
 - agenden ------ Diverse Agenden
 - folien ------ Folien zu Tools und Maven
 - sonstiges ------ Sonstige Materialien
-- samples ------ Beispiele zu Maven-Projekten (gezipt)
+- maven_samples ------ Beispiele zu Maven-Projekten (gezipt)
