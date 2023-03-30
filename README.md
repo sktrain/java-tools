@@ -6,3 +6,4 @@ Materialien zum Java Tools und Ökosystem
 - folien ------ Folien zu Tools und Maven
 - sonstiges ------ Sonstige Materialien
 - maven_samples ------ Beispiele zu Maven-Projekten (gezipt)
+- jni_samples ------ Beispiele zu JNI 
