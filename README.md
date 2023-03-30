@@ -1,4 +1,4 @@
-# maven_aok
+# java-tools
 Materialien zum Maven-Seminar
 
 ## Inhalte
