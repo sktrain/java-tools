@@ -7,3 +7,4 @@ Materialien zum Java Tools und Ökosystem
 - sonstiges ------ Sonstige Materialien
 - maven_samples ------ Beispiele zu Maven-Projekten (gezipt)
 - jni_samples ------ Beispiele zu JNI 
+- JUnit_samples ------ Beispiele zu Junit/Mockito
