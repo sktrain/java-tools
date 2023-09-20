@@ -1,5 +1,5 @@
 # java-tools
-Materialien zum Java Tools und Ökosystem
+Materialien zu Java Tools und Ökosystem
 
 ## Inhalte
 - agenden ------ Diverse Agenden
