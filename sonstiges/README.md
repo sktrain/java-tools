@@ -1,4 +1,12 @@
-## JNI
+# Maven
+
+### TheNexus (Team, welches Nexus entwickelt) stellt weitergehende Infos online zur Verfügung, insbesondere:
+- Das Standardwerk "Maven: The Complete Reference" (vieles ist nach wie vor aktuell):
+  https://books.sonatype.com/mvnref-book/reference/index.html
+
+  
+
+# JNI
 
 Information about the Java Native Interface (JNI).
 
@@ -20,7 +28,7 @@ Information about the Java Native Interface (JNI).
 - [JNI Cookbook](https://github.com/mkowsiak/jnicookbook)
 
 
-### Debugging:
+# Debugging:
 
 -  Debugger von der Kommandozeile für Java Code:
    Das JDK liefert mit "jdb" im "lib"-Verzeichnissogar einen mit.
