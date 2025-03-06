@@ -1,0 +1,1 @@
+Logging-Framework per Maven eingebunden

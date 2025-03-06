@@ -1,0 +1,1 @@
+Beispiel für  Spring Unterstützung beim Datenbankzugriff mit embedded H2

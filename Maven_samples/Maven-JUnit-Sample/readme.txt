@@ -1,0 +1,1 @@
+Beispiel mit JUnit-Test und Nutzung von Mockito

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>sk.train</groupId>
+	<artifactId>Maven_Java11_Multi</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	<name>Maven_Java11_Multi</name>
+	
+	<description>Maven-Multimodul-Projekt auf Basis Java 11 ohne weitere Dependencies 
+				(keine JPMS-Module)
+	</description>
+
+	<properties>
+		<!-- 	 <compiler.plugin.version>3.8.0</compiler.plugin.version> -->
+		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+	</properties>
+
+
+	<modules>
+		<module>service</module>
+		<module>application</module>
+	</modules>
+	
+	<build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+           <goals>
+              <goal>exec</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>sk.train.app.Application</mainClass>
+         
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+	
+</project>

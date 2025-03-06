@@ -1,0 +1,1 @@
+Simples Beispiel für eine eigene BOM

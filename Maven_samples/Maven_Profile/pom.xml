@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>sk.train</groupId>
+  <artifactId>Maven_Profile</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>Maven_Basis_Java11</name>
+  <description>Ein Basis Maven Projekt mit aktuellen Plugin-Versionen vom Januar 2023
+    + Jupiter-Dependencies
+    + Profile
+    (erstellt auf Basis des Apache Maven Simple Archetype)
+  </description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <jupiter-version>5.9.2</jupiter-version>
+  </properties>
+
+  <dependencies>
+    <!--  testing dependencies  -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>${jupiter-version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <profiles>
+    <profile>
+      <id>dev</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <maven.compiler.showWarnings> true </maven.compiler.showWarnings>
+        <maven.compiler.showDeprecation> true </maven.compiler.showDeprecation>
+        <maven.compiler.verbose> true </maven.compiler.verbose>
+      </properties>
+    </profile>
+    <profile>
+      <id>noverbose</id>
+      <properties>
+        <maven.compiler.showWarnings> false </maven.compiler.showWarnings>
+        <maven.compiler.showDeprecation> false </maven.compiler.showDeprecation>
+      </properties>
+    </profile>
+  </profiles>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>3.2.0</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>4.0.0-M4</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.3.0</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.10.1</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M8</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <version>3.0.0-M8</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.3.0</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-install-plugin</artifactId>
+        <version>3.1.0</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>3.0.0</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-verifier-plugin</artifactId>
+        <version>1.1</version>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>
