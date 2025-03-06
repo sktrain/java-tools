@@ -1,0 +1,16 @@
+Zugangsdaten für die bereitgestellten Rechner:
+
+Stephan, Karrer rdp.gfu.cloud:44360 Dozent v6FScny9KV
+
+Rosso, Jannis rdp.gfu.cloud:44361 Teilnehmer w7GTdoz0LW
+Holschuh, Luisa rdp.gfu.cloud:44362 Teilnehmer x8HUep1AMX
+Conigliaro, Madeleine rdp.gfu.cloud:44363 Teilnehmer y9KVfr2BNY
+Wolf, Benedict rdp.gfu.cloud:44364 Teilnehmer z0LWgs3COZ
+Würtz, Tristan rdp.gfu.cloud:44365 Teilnehmer 1AMXht4DPa
+Wasmuth, Marie rdp.gfu.cloud:44366 Teilnehmer 2BNYiu5ERb
+Lack, Maximilian rdp.gfu.cloud:44367 Teilnehmer 3COZkv6FSc
+
+Als gemeinsamen Netzwerk-Ordner Nutzen Sie bitte Raum36
+
+Für einen Hinweis an technik@gfu.net am Ende des Seminars , dass die PCs für die nächsten Kurse überschrieben werden können, wären wir Ihnen sehr dankbar.
+Sollten Sie uns keine weiteren Informationen mitteilen, gehen wir davon aus, dass wir die Rechner um 16:15 Uhr am letzten Seminartag für den nächsten Kurs vorbereiten können.
