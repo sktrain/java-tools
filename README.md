@@ -2,7 +2,7 @@
 Materialien zu Java Tools und Ökosystem
 
 ## Inhalte
-- agenden ------ Diverse Agenden
+- agenden ------ Diverse Agenden bzw. kundenspezifische Vorgaben
 - folien ------ Folien zu Tools und Maven
 - sonstiges ------ Sonstige Materialien
 - maven_samples ------ Beispiele zu Maven-Projekten (gezipt)
